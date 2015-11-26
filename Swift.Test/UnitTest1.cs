@@ -29,11 +29,10 @@ namespace Swift.Test
                 Height = 234,
                 Sex = 1,
                 Remark = "这是一个备注",
-                AddTime = DateTime.Now
             };
 
-            var res = svc.Add(obj);
-            var iss = res;
+            //var res = svc.Add(obj);
+            var result = svc.Get(206);
 
            // var result = svc.HandlerBus();
 
