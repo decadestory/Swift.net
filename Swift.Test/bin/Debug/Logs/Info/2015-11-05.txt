@@ -1,0 +1,152 @@
+[2015-11-05 09:46:23]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 09:50:47]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 09:51:15]<Swift.Test.TestMethod1> 执行1000条插入时间：28810
+
+[2015-11-05 09:54:07]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 09:54:31]<Swift.Test.TestMethod1> 执行1000条插入时间：24630
+
+[2015-11-05 10:02:07]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 10:02:23]<Swift.Test.TestMethod1> 执行1000条插入时间：16375
+
+[2015-11-05 10:03:04]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 10:03:17]<Swift.Test.TestMethod1> 执行1000条插入时间：13137
+
+[2015-11-05 10:04:37]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 10:04:51]<Swift.Test.TestMethod1> 执行1000条插入时间：13545
+
+[2015-11-05 10:18:08]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 10:18:19]<Swift.Test.TestMethod1> 执行1000条插入时间：11647
+
+[2015-11-05 10:26:21]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 10:26:33]<Swift.Test.TestMethod1> 执行1000条插入时间：11648
+
+[2015-11-05 10:39:10]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 10:39:22]<Swift.Test.TestMethod1> 执行1000条插入时间：11636
+
+[2015-11-05 10:39:32]<Swift.Test.TestMethod1> 执行1000条插入时间：9767
+
+[2015-11-05 10:51:04]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 10:51:15]<Swift.Test.TestMethod1> 执行1000条插入时间：11665
+
+[2015-11-05 11:44:07]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 11:48:44]<Swift.Test.TestMethod1> 执行1000条插入时间：292264
+
+[2015-11-05 11:53:50]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 11:53:59]<Swift.Test.TestMethod1> 执行1000条插入时间：16033
+
+[2015-11-05 11:55:10]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 11:55:35]<Swift.Test.TestMethod1> 执行1000条插入时间：31663
+
+[2015-11-05 11:56:14]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 11:56:57]<Swift.Test.TestMethod1> 执行1000条插入时间：43269
+
+[2015-11-05 12:00:50]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 12:03:43]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 12:06:50]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 12:07:03]<Swift.Test.TestMethod1> 执行1000条插入时间：16425
+
+[2015-11-05 12:08:01]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 12:08:04]<Swift.Test.TestMethod1> 执行时间：3078
+
+[2015-11-05 12:09:06]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 12:09:08]<Swift.Test.TestMethod1> 执行时间：2498
+
+[2015-11-05 12:15:01]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 12:15:03]<Swift.Test.TestMethod1> 执行时间：2546
+
+[2015-11-05 12:15:04]<Swift.Test.TestMethod1> 执行时间：778
+
+[2015-11-05 12:15:05]<Swift.Test.TestMethod1> 执行时间：465
+
+[2015-11-05 12:16:46]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 12:16:48]<Swift.Test.TestMethod1> 执行时间：2501
+
+[2015-11-05 12:16:49]<Swift.Test.TestMethod1> 执行时间：461
+
+[2015-11-05 12:16:49]<Swift.Test.TestMethod1> 执行时间：451
+
+[2015-11-05 12:16:50]<Swift.Test.TestMethod1> 执行时间：450
+
+[2015-11-05 12:16:50]<Swift.Test.TestMethod1> 执行时间：457
+
+[2015-11-05 12:16:50]<Swift.Test.TestMethod1> 执行时间：451
+
+[2015-11-05 12:16:51]<Swift.Test.TestMethod1> 执行时间：451
+
+[2015-11-05 12:16:51]<Swift.Test.TestMethod1> 执行时间：451
+
+[2015-11-05 12:16:52]<Swift.Test.TestMethod1> 执行时间：451
+
+[2015-11-05 12:16:52]<Swift.Test.TestMethod1> 执行时间：452
+
+[2015-11-05 14:35:40]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 14:36:00]<Swift.Test.TestMethod1> 执行时间：49120
+
+[2015-11-05 14:36:03]<Swift.Test.TestMethod1> 执行时间：2539
+
+[2015-11-05 14:36:04]<Swift.Test.TestMethod1> 执行时间：1206
+
+[2015-11-05 14:36:07]<Swift.Test.TestMethod1> 执行时间：2896
+
+[2015-11-05 14:36:07]<Swift.Test.TestMethod1> 执行时间：468
+
+[2015-11-05 14:36:08]<Swift.Test.TestMethod1> 执行时间：485
+
+[2015-11-05 14:36:08]<Swift.Test.TestMethod1> 执行时间：451
+
+[2015-11-05 14:36:09]<Swift.Test.TestMethod1> 执行时间：449
+
+[2015-11-05 14:36:09]<Swift.Test.TestMethod1> 执行时间：462
+
+[2015-11-05 14:36:09]<Swift.Test.TestMethod1> 执行时间：451
+
+[2015-11-05 14:46:34]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 14:46:54]<Swift.Test.TestMethod1> 执行时间：10482
+
+[2015-11-05 14:46:55]<Swift.Test.TestMethod1> 执行时间：1349
+
+[2015-11-05 14:46:57]<Swift.Test.TestMethod1> 执行时间：1610
+
+[2015-11-05 14:46:58]<Swift.Test.TestMethod1> 执行时间：1563
+
+[2015-11-05 14:46:59]<Swift.Test.TestMethod1> 执行时间：1112
+
+[2015-11-05 14:47:02]<Swift.Test.TestMethod1> 执行时间：2680
+
+[2015-11-05 14:47:03]<Swift.Test.TestMethod1> 执行时间：451
+
+[2015-11-05 14:47:03]<Swift.Test.TestMethod1> 执行时间：490
+
+[2015-11-05 14:47:04]<Swift.Test.TestMethod1> 执行时间：476
+
+[2015-11-05 14:47:04]<Swift.Test.TestMethod1> 执行时间：814
+
+[2015-11-05 15:02:10]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 15:03:55]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+
+[2015-11-05 15:09:43]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+

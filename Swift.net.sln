@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.Net", "Swift.Net\Swift.Net.csproj", "{F64F223E-FB83-4C25-823D-8A8C8D657722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.Test", "Swift.Test\Swift.Test.csproj", "{B11BCE97-6398-4EEA-A07C-566A2C7B948A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{3C9531AA-5697-4555-8186-9F3B9B53F8FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resp", "Resp", "{2E5D6CDD-01D5-42D1-8C5E-18B7BAF34087}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Svc", "Svc", "{957B8689-73D6-4700-9A4F-82F9824957BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.Demo.Resp", "Swift.Demo.Resp\Swift.Demo.Resp.csproj", "{409EFF5F-78A8-42B2-B894-D5AF52359E3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity", "Entity", "{3C3CACC2-7F66-4450-ACB1-123B6D473EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.Demo.Entity", "Swift.Demo.Entity\Swift.Demo.Entity.csproj", "{2288F5F9-EADB-4D7C-89B4-AB022FB7229D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.Demo.Svc", "Swift.Demo.Svc\Swift.Demo.Svc.csproj", "{C908ABC6-1F3B-4BDB-9F3E-317302EBFC49}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.10.61:8080/tfs/adjframe
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Swift.Demo.Entity\\Swift.Demo.Entity.csproj
+		SccProjectTopLevelParentUniqueName1 = Swift.net.sln
+		SccProjectName1 = Swift.Demo.Entity
+		SccLocalPath1 = Swift.Demo.Entity
+		SccProjectUniqueName2 = Swift.Demo.Resp\\Swift.Demo.Resp.csproj
+		SccProjectTopLevelParentUniqueName2 = Swift.net.sln
+		SccProjectName2 = Swift.Demo.Resp
+		SccLocalPath2 = Swift.Demo.Resp
+		SccProjectUniqueName3 = Swift.Demo.Svc\\Swift.Demo.Svc.csproj
+		SccProjectTopLevelParentUniqueName3 = Swift.net.sln
+		SccProjectName3 = Swift.Demo.Svc
+		SccLocalPath3 = Swift.Demo.Svc
+		SccProjectUniqueName4 = Swift.Net\\Swift.Net.csproj
+		SccProjectName4 = Swift.Net
+		SccLocalPath4 = Swift.Net
+		SccProjectUniqueName5 = Swift.Test\\Swift.Test.csproj
+		SccProjectName5 = Swift.Test
+		SccLocalPath5 = Swift.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F64F223E-FB83-4C25-823D-8A8C8D657722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64F223E-FB83-4C25-823D-8A8C8D657722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64F223E-FB83-4C25-823D-8A8C8D657722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64F223E-FB83-4C25-823D-8A8C8D657722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11BCE97-6398-4EEA-A07C-566A2C7B948A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11BCE97-6398-4EEA-A07C-566A2C7B948A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11BCE97-6398-4EEA-A07C-566A2C7B948A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11BCE97-6398-4EEA-A07C-566A2C7B948A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409EFF5F-78A8-42B2-B894-D5AF52359E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409EFF5F-78A8-42B2-B894-D5AF52359E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409EFF5F-78A8-42B2-B894-D5AF52359E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409EFF5F-78A8-42B2-B894-D5AF52359E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2288F5F9-EADB-4D7C-89B4-AB022FB7229D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2288F5F9-EADB-4D7C-89B4-AB022FB7229D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2288F5F9-EADB-4D7C-89B4-AB022FB7229D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2288F5F9-EADB-4D7C-89B4-AB022FB7229D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C908ABC6-1F3B-4BDB-9F3E-317302EBFC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C908ABC6-1F3B-4BDB-9F3E-317302EBFC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C908ABC6-1F3B-4BDB-9F3E-317302EBFC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C908ABC6-1F3B-4BDB-9F3E-317302EBFC49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E5D6CDD-01D5-42D1-8C5E-18B7BAF34087} = {3C9531AA-5697-4555-8186-9F3B9B53F8FA}
+		{957B8689-73D6-4700-9A4F-82F9824957BD} = {3C9531AA-5697-4555-8186-9F3B9B53F8FA}
+		{3C3CACC2-7F66-4450-ACB1-123B6D473EAE} = {3C9531AA-5697-4555-8186-9F3B9B53F8FA}
+		{409EFF5F-78A8-42B2-B894-D5AF52359E3E} = {2E5D6CDD-01D5-42D1-8C5E-18B7BAF34087}
+		{C908ABC6-1F3B-4BDB-9F3E-317302EBFC49} = {957B8689-73D6-4700-9A4F-82F9824957BD}
+		{2288F5F9-EADB-4D7C-89B4-AB022FB7229D} = {3C3CACC2-7F66-4450-ACB1-123B6D473EAE}
+	EndGlobalSection
+EndGlobal

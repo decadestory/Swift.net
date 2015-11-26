@@ -1,0 +1,2 @@
+[2015-11-04 16:12:18]<Swift.Net.Core.OnModelCreating> DbContext初始化成功！
+

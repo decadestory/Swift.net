@@ -1,0 +1,10 @@
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\bin\Debug\Swift.Core.dll.config
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\bin\Debug\Swift.Core.dll
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\bin\Debug\Swift.Core.pdb
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\bin\Debug\EntityFramework.dll
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\bin\Debug\EntityFramework.xml
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\obj\Debug\Swift.Core.csprojResolveAssemblyReference.cache
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\obj\Debug\Swift.Core.dll
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\obj\Debug\Swift.Core.pdb
