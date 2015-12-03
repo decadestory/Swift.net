@@ -18,6 +18,6 @@ namespace Swift.Demo.Entity
         public string Nric { get; set; }
         public int Age { get; set; }
         public float Height { get; set; }
-        public int Sex { get; set; }
+        public int? Sex { get; set; }
     }
 }

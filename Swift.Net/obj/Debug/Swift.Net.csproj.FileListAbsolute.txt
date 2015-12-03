@@ -8,7 +8,6 @@ D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\bin\Debug\EntityFramework.Sq
 D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\obj\Debug\Swift.Net.csprojResolveAssemblyReference.cache
 D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\obj\Debug\Swift.Net.dll
 D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Core\obj\Debug\Swift.Net.pdb
-D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Net\obj\Debug\Swift.Net.csprojResolveAssemblyReference.cache
 D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Net\bin\Debug\Swift.Net.dll.config
 D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Net\bin\Debug\Swift.Net.dll
 D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Net\bin\Debug\Swift.Net.pdb

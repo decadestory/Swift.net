@@ -5,13 +5,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Swift.Demo.Entity;
 using Swift.Demo.Resp;
 using Swift.Demo.Svc;
+using Swift.Net.Base;
 using Swift.Net.Share;
 using Swift.Test.Bootstrapper;
 
 namespace Swift.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTest1: BaseSvc<DemoEntity>
     {
         [TestMethod]
         public void TestMethod1()
@@ -31,8 +32,10 @@ namespace Swift.Test
                 Remark = "这是一个备注",
             };
 
+            var en = svc.GetFirstOne();
+
             //var res = svc.Add(obj);
-            var result = svc.Get(206);
+            //var result = svc.Get(206);
 
            // var result = svc.HandlerBus();
 

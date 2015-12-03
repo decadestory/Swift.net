@@ -27,6 +27,12 @@ namespace Swift.Demo.Svc
             return new DataResult<List<DemoEntityDTO>> {Code = 0, Data = datalist};
         }
 
+        public DataResult<DemoEntity> GetFirstOne()
+        {
+            var s = GetFirst(t=>t.Age==1);
+            return new DataResult<DemoEntity>{Code = 0,Data = s};
+        }
+
         public PaginationResult<DemoEntity> PageList()
         {
             return dr.PageList();

@@ -18,7 +18,7 @@ namespace Swift.Net.Base
             }
         }
 
-        public virtual IQueryable<TEntity> Entities
+        protected virtual IQueryable<TEntity> Entities
         {
             get
             {
@@ -26,65 +26,70 @@ namespace Swift.Net.Base
             }
         }
 
-        public int Commit()
+        protected int Commit()
         {
             return EfContext.SaveChanges();
         }
 
-        public int Delete(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate, bool isSave = true)
+        protected int Delete(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate, bool isSave = true)
         {
             List<TEntity> list = this.EfContext.Set<TEntity>().Where<TEntity>(predicate).ToList<TEntity>();
             return ((list.Count > 0) ? this.Delete((IEnumerable<TEntity>)list, isSave) : 0);
         }
 
-        public int Delete(IEnumerable<TEntity> entities, bool isSave = true)
+        protected int Delete(IEnumerable<TEntity> entities, bool isSave = true)
         {
             this.RegisterDeleted<TEntity>(entities);
             return (isSave ? this.EfContext.SaveChanges() : 0);
         }
 
-        public int Delete(object id, bool isSave = true)
+        protected int Delete(object id, bool isSave = true)
         {
             TEntity entity = this.EfContext.Set<TEntity>().Find(new object[] { id });
             return ((entity != null) ? this.Delete(entity, isSave) : 0);
         }
 
-        public int Delete(TEntity entity, bool isSave = true)
+        protected int Delete(TEntity entity, bool isSave = true)
         {
             RegisterDeleted<TEntity>(entity);
             return (isSave ? this.EfContext.SaveChanges() : 0);
         }
 
-        public IEnumerable<TEntity> GetAll()
+        protected IEnumerable<TEntity> GetAll()
         {
             return this.EfContext.Set<TEntity>().ToList<TEntity>();
         }
 
-        public TEntity Get(params object[] key)
+        protected TEntity Get(params object[] key)
         {
             return this.EfContext.Set<TEntity>().Find(key);
         }
 
-        public int Add(IEnumerable<TEntity> entities, bool isSave = true)
+        protected TEntity GetFirst(Func<TEntity, bool> where)
+        {
+            return this.EfContext.Set<TEntity>().FirstOrDefault(where);
+        }
+
+        protected int Add(IEnumerable<TEntity> entities, bool isSave = true)
         {
             this.RegisterNew<TEntity>(entities);
             return (isSave ? this.EfContext.SaveChanges() : 0);
         }
 
-        public int Add(TEntity entity, bool isSave = true)
+        protected int Add(TEntity entity, bool isSave = true)
         {
             this.RegisterNew<TEntity>(entity);
             return (isSave ? this.EfContext.SaveChanges() : 0);
         }
 
-        public int Update(IEnumerable<TEntity> entities, bool isSave = true)
+        protected int Update(IEnumerable<TEntity> entities, bool isSave = true)
         {
             if (!isSave) return 0;
             this.RegisterModified<TEntity>(entities);
             return this.Commit();
         }
 
-        public int Update(TEntity entity, bool isSave = true)
+        protected int Update(TEntity entity, bool isSave = true)
         {
             if (!isSave) return 0;
             this.RegisterModified<TEntity>(entity);
@@ -98,7 +103,7 @@ namespace Swift.Net.Base
         /// <param name="pageSize">页大小</param>
         /// <param name="where">分页条件</param>
         /// <returns>PaginationResult</returns>
-        public PaginationResult<TEntity> GetPageList(int pageIndex, int pageSize, Func<TEntity, bool> where=null)
+        protected PaginationResult<TEntity> GetPageList(int pageIndex, int pageSize, Func<TEntity, bool> where=null)
         {
             var total = where == null ? Entities.Count() : Entities.Where(where).Count();
             var result = where == null ? Entities.OrderByDescending(v => v.AddTime).Skip((pageIndex - 1)*pageSize).Take(pageSize).AsQueryable()
@@ -114,7 +119,7 @@ namespace Swift.Net.Base
         /// <param name="where">分页条件</param>
         /// <param name="order">排序字段</param>
         /// <returns>PaginationResult</returns>
-        public PaginationResult<TEntity> GetPageListOrderAsc<T>(int pageIndex, int pageSize, Func<TEntity, T> order, Func<TEntity, bool> where=null)
+        protected PaginationResult<TEntity> GetPageListOrderAsc<T>(int pageIndex, int pageSize, Func<TEntity, T> order, Func<TEntity, bool> where=null)
         {
             var total = where == null ? Entities.Count() : Entities.Where(where).Count();
                 var result =where == null ?  Entities.Skip(((pageIndex - 1) * pageSize)).Take(pageSize).OrderBy(order) 
@@ -130,7 +135,7 @@ namespace Swift.Net.Base
         /// <param name="where">分页条件</param>
         /// <param name="order">排序字段</param>
         /// <returns>PaginationResult</returns>
-        public PaginationResult<TEntity> GetPageListOrderDesc<T>(int pageIndex, int pageSize, Func<TEntity, T> order, Func<TEntity, bool> where = null)
+        protected PaginationResult<TEntity> GetPageListOrderDesc<T>(int pageIndex, int pageSize, Func<TEntity, T> order, Func<TEntity, bool> where = null)
         {
             var total = where == null ? Entities.Count() : Entities.Where(where).Count();
             var result = where == null ? Entities.Skip(((pageIndex - 1) * pageSize)).Take(pageSize).OrderBy(order)
