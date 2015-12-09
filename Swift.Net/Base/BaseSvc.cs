@@ -96,7 +96,7 @@ namespace Swift.Net.Base
             return this.Commit();
         }
         
-        public int RowsCount(Func<TEntity, bool> where = null)
+        protected int RowsCount(Func<TEntity, bool> where = null)
         {
             return where == null ?
                 this.EfContext.Set<TEntity>().Count() :
