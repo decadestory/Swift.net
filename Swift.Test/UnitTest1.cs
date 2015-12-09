@@ -19,10 +19,8 @@ namespace Swift.Test
         {
             AutoMapperInstaller.Install();
             var svc = new DemoSvc();
-
             var obj = new DemoEntity
             {
-                //Id = Guid.NewGuid().ToString(),
                 Name = "jerry",
                 Nric = "32148461641649616",
                 Phone = "189615645",
@@ -31,8 +29,9 @@ namespace Swift.Test
                 Sex = 1,
                 Remark = "这是一个备注",
             };
+            var res = svc.AddEntity(obj);
 
-            var en = svc.GetFirstOne();
+            //var en = svc.GetFirstOne();
 
             //var res = svc.Add(obj);
             //var result = svc.Get(206);

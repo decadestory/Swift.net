@@ -32,10 +32,10 @@ namespace Swift.Net.Core
             switch (isCreateDb)
             {
                 case null:
-                case "false":
+                case "true":
                     Database.SetInitializer(new CreateDatabaseIfNotExists<SContext>());
                     break;
-                case "true":
+                case "false":
                     Database.SetInitializer<SContext>(null);
                     break;
             }
