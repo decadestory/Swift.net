@@ -32,3 +32,4 @@ D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Net\bin\Debug\System.Web.WebPages
 D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Net\bin\Debug\System.Web.WebPages.Razor.xml
 D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Net\obj\Debug\Swift.Net.dll
 D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Net\obj\Debug\Swift.Net.pdb
+D:\Projects\TFSERVER\Swift.net\Swift.net\Swift.Net\obj\Debug\Swift.Net.csprojResolveAssemblyReference.cache

@@ -27,8 +27,19 @@ namespace Swift.Net.Core
             Configuration.LazyLoadingEnabled = false;
             Configuration.ProxyCreationEnabled = false;
 
-            //Database.SetInitializer(new CreateDatabaseIfNotExists<SContext>());
-            Database.SetInitializer<SContext>(null);
+            var isCreateDb = ConfigurationManager.AppSettings["SwiftCreateDb"];
+
+            switch (isCreateDb)
+            {
+                case null:
+                case "false":
+                    Database.SetInitializer(new CreateDatabaseIfNotExists<SContext>());
+                    break;
+                case "true":
+                    Database.SetInitializer<SContext>(null);
+                    break;
+            }
+
             ((IObjectContextAdapter)this).ObjectContext.CommandTimeout = 180;
         }
 
