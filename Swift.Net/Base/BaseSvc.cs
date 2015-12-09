@@ -95,6 +95,13 @@ namespace Swift.Net.Base
             this.RegisterModified<TEntity>(entity);
             return this.Commit();
         }
+        
+        public int RowsCount(Func<TEntity, bool> where = null)
+        {
+            return where == null ?
+                this.EfContext.Set<TEntity>().Count() :
+                 this.EfContext.Set<TEntity>().Where(where).Count();
+        }
 
         /// <summary>
         /// 实体分页：不可自定义排序，些方法为时间倒序排
