@@ -1,4 +1,5 @@
-# Swift.net 
+# Swift.Net
+## Usage
 ### STEP 1 Create Your Entities
 
 ```
