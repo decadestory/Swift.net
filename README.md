@@ -45,21 +45,36 @@ public class DemoSvc : BaseSvc<DemoEntity>
   }
 }
 ```
-### STEP 4 So,We Test
+### STEP 5 So,We Test
+
+Now We Just Config This:
+```
+<connectionStrings>
+  <add name="DbConnection" connectionString="Data Source=.;Initial Catalog=SwiftNet;User ID=sa;Password=sa"
+  providerName="System.Data.SqlClient" />
+</connectionStrings>
+```
+And This:
+```
+<appSettings>
+  <add key="SwiftEntityAssembly" value="Swift.Demo.Entity"/>
+  <add key="SwiftCreateDb" value="true"/>
+</appSettings>
+```
+Now,Test:
 ```
 public void TestMethod1()
 {
   var svc = new DemoSvc();
-  var obj = new DemoEntity
-  {
-    Name = "jerry",
-    Nric = "32148461641649616",
-    Phone = "189615645",
-    Age = 1111,
-    Height = 234,
-    Sex = 1,
-    Remark = "这是一个备注",
-  };
+  var obj = new DemoEntity {
+                Name = "jerry",
+                Nric = "32148461641649616",
+                Phone = "189615645",
+                Age = 1111,
+                Height = 234,
+                Sex = 1,
+                Remark = "这是一个备注",
+            };
   var res = svc.AddEntity(obj);
 }
 ```
