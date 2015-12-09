@@ -57,7 +57,9 @@ Now We Just Config This:
 And This:
 ```
 <appSettings>
+  <!--实体程序集名称-->
   <add key="SwiftEntityAssembly" value="Swift.Demo.Entity"/>
+  <!--是否自动创建数据库,此配置可以省略，省略则默认创建数据库-->
   <add key="SwiftCreateDb" value="true"/>
 </appSettings>
 ```
