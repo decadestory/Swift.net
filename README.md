@@ -4,7 +4,7 @@ http://decadestory.github.io/Swift.net.
 # Usage
 ### STEP 1 Create Your Entities
 
-```
+``` csharp
 public class DemoEntity : BaseEntity
 {
   public int Id { get; set; }
@@ -19,7 +19,7 @@ public class DemoEntity : BaseEntity
 ### STEP 2 Create The Mapper
 Put this Mappers into the Mapper Directory which In Entity Project. 
 
-```
+``` csharp
 public class DemoEnityMapper : BaseMap<DemoEntity>
    {
        public override void Init()
@@ -31,14 +31,14 @@ public class DemoEnityMapper : BaseMap<DemoEntity>
    }
 ```
 ### STEP 3 Create The Resposity
-```
+``` csharp
 public class DemoResp : BaseRep<DemoEntity>
 {
 
 }
 ```
 ### STEP 4 Create The Service
-```
+``` csharp
 public class DemoSvc : BaseSvc<DemoEntity>
 {
   DemoResp dr = new DemoResp();
@@ -47,18 +47,18 @@ public class DemoSvc : BaseSvc<DemoEntity>
     return Add(obj);
   }
 }
-```
+``` 
 ### STEP 5 So,We Test
 
 Now We Just Config This:
-```
+``` xml
 <connectionStrings>
   <add name="DbConnection" connectionString="Data Source=.;Initial Catalog=SwiftNet;User ID=sa;Password=sa"
   providerName="System.Data.SqlClient" />
 </connectionStrings>
 ```
 And This:
-```
+``` xml
 <appSettings>
   <!--实体程序集名称-->
   <add key="SwiftEntityAssembly" value="Swift.Demo.Entity"/>
@@ -67,7 +67,7 @@ And This:
 </appSettings>
 ```
 Now,Test:
-```
+``` csharp
 public void TestMethod1()
 {
   var svc = new DemoSvc();
